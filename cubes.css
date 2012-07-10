@@ -20,27 +20,27 @@ position:relative !important;
    85%, 100% { -webkit-transform: rotateX(-360deg); }
 }
 
-#fpane > div{
+#fpane div{
 position:absolute;
 }
 
-#fpane > div:first-child{
+#fpane div.p0{
 -webkit-transform: rotateX(90deg) translateZ(200px);
 -moz-transform: rotateX(90deg) translateZ(200px);
 }
 
-#fpane > div:first-child(2) {
+#fpane div.p1 {
 -webkit-transform: translateZ(200px);
 -moz-transform: translateZ(200px);
 }
 
-#fpane > div:nth-child(3) {
+#fpane div.p2 {
 -webkit-transform: rotateY(90deg) translateZ(200px);
 -moz-transform: rotateY(90deg) translateZ(200px);
 text-align: center;
 }
 
-#fpane > div:nth-child(4) {
+#fpane div.p3 {
 -webkit-transform: rotateY(180deg) translateZ(200px);
 -moz-transform: rotateY(180deg) translateZ(200px);
 }
