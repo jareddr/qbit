@@ -3,7 +3,7 @@
 -webkit-perspective-origin: 50% 50%;
 }
 #fpane{
--webit-transform-style: preserve-3d;
+-webkit-transform-style: preserve-3d;
 position:relative !important;
 -webkit-animation-name: rotation;
    -webkit-animation-timing-function: ease;
