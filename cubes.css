@@ -27,7 +27,7 @@ position:absolute;
 #fpane div.p0{
 -webkit-transform: rotateX(90deg) translateZ(200px);
 -moz-transform: rotateX(90deg) translateZ(200px);
-background-image: url('http://static1.betabrand.com/all/proxy/get/url/aHR0cDovL2xoMy5nZ3BodC5jb20vLVZhNW9FOWtJOTdzL1RfdUhDNlJZQS1JL0FBQUFBQUFCVy04L3N6UHg3UHhXTDl3L3MxNjAwL0JsdWVsaW5lbktDXzExNTB4NTUwLmpwZw,,');
+background-image: url('http://static1.betabrand.com/all/proxy/get/url/aHR0cDovL2xoMy5nZ3BodC5jb20vLVZhNW9FOWtJOTdzL1RfdUhDNlJZQS1JL0FBQUFBQUFCVy04L3N6UHg3UHhXTDl3L3MxNjAwL0JsdWVsaW5lbktDXzExNTB4NTUwLmpwZw,,') !important;
 }
 
 #fpane div.p1 {
