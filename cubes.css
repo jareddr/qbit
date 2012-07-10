@@ -3,10 +3,21 @@
 -webkit-perspective-origin: 50% 50%;
 }
 #fpane{
--webkit-transition: -webkit-transform 2s linear;
 -webit-transform-style: preserve-3d;
 position:relative !important;
+-webkit-animation-name: rotation;
+   -webkit-animation-timing-function: ease;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 15s;
+}
 
+@-webkit-keyframes rotation
+{
+   from, to {  }
+   10%, 25% { -webkit-transform: rotateX(-90deg); }
+   35%, 50% { -webkit-transform: rotateX(-180deg); }
+   60%, 75% { -webkit-transform: rotateX(-270deg); }
+   85%, 100% { -webkit-transform: rotateX(-360deg); }
 }
 
 #fpane > div{
