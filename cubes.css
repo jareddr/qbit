@@ -9,6 +9,10 @@ position:relative !important;
 
 }
 
+#fpane > div{
+position:absolute;
+}
+
 #fpane > div:first-child{
 -webkit-transform: rotateX(90deg) translateZ(200px);
 -moz-transform: rotateX(90deg) translateZ(200px);
